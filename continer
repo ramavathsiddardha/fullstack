@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+
+        }
+        #parent-container{
+            height: 1800px;
+            width: 1800px;
+            overflow: hidden;
+        }
+        #skills{
+            text-align: center;
+            display: inline-block;
+            border-style: solid;
+            background: #ff0000;
+            height: 25px;
+            width: 70px;
+        }
+    </style>
+    <div id="parent-container">
+        <img id="fool m4" src="./fool.jpg" alt="glacier">
+        <div>
+            <h2>PROJECT TITLE</h2>
+            <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, rem, odit explicabo amet in dignissimos voluptatum deleniti tenetur perferendis at, nesciunt illo laudantium? Magni nesciunt repudiandae, aliquid veritatis reiciendis ipsam.</p>
+            <div id="skills- container">
+                <p id="skills">HTML</p>
+                <p id="skills">CSS</p>
+                <p id="skills">JS</p>
+        </div>
+    </div>
+</body>
+</html>
